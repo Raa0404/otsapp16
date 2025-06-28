@@ -1,0 +1,20 @@
+{
+  "short_name": "OTSApp",
+  "name": "OTS Settlement App",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0b5394",
+  "background_color": "#ffffff"
+}
