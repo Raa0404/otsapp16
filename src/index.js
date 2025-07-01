@@ -82,7 +82,7 @@ function App() {
           <p><b>CIF Current Balance:</b> ₹{result.CIF_BALANCE}</p>
           <p><b>CIF Principal Amount:</b> ₹{result.PRINCIPAL_AMOUNT}</p>
           <p><b>Minimum Settlement Amount:</b> ₹{result.minSettle.toFixed(2)} (based on {result.maxPct}%)</p>
-          <p><b>Entry Date:</b> {result.NPA_DATE}</p>
+          <p><b>NPA Date:</b> {result.NPA_DATE}</p>
           <button onClick={goBack} style={{ padding: 10 }}>Back</button>
         </>
       )}
